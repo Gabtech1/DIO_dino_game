@@ -1,0 +1,54 @@
+.vitalis{
+    width: 80px;
+    height: 94px;
+    background-image: url(/imgs/vitalis.png);
+    position:absolute;
+    bottom:0;
+}
+
+.bombi{
+    position: absolute;
+    width: 60px;
+    height: 52px;
+    bottom: 0;
+    background-image: url(/imgs/bombi.png);
+}
+
+.game-over{
+    text-align: center;
+    color: #75e7f7;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+@keyframes slideright{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: 7000%;
+    }
+}
+
+.background{
+    position:absolute;
+    bottom: 0;
+    background-image: url(/imgs/background.jpg);
+    background-repeat: repeat-x;
+    animation: slideright 800s infinite linear;
+    width: 100%;
+    height: 430px;
+    left: 0;
+}
+
+.vorago{
+    width: 200px;
+    height: 239px;
+    background-image: url(/imgs/vorago.png);
+    position:absolute;
+    right: 0;
+    bottom:0;
+}
+body {
+background:#2d2f30
+}
